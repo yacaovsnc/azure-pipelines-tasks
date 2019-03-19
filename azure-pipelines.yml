@@ -6,7 +6,7 @@ steps:
   inputs:
     verbose: false
 
-- script: 'node make.js build --task FtpUploadV2'
+- script: 'node make.js build --task FtpUploadV1'
   displayName: 'Command Line Script'
 
 - task: ArchiveFiles@2
